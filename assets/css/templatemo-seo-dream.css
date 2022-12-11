@@ -1,38 +1,6 @@
-/*
-
-TemplateMo 563 SEO Dream
-
-https://templatemo.com/tm-563-seo-dream
-
-/
-/* ---------------------------------------------
-Table of contents
-------------------------------------------------
-01. font & reset css
-02. reset
-03. global styles
-04. header
-05. banner
-06. features
-07. testimonials
-08. contact
-09. footer
-10. preloader
-11. search
-12. portfolio
-
---------------------------------------------- */
-/* 
----------------------------------------------
-font & reset css
---------------------------------------------- 
-*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
-/* 
----------------------------------------------
-reset
---------------------------------------------- 
-*/
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
@@ -209,7 +177,7 @@ body {
 
 .main-blue-button a {
   display: inline-block;
-  background-color: #4771cb;
+  background-color: #000000;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -229,7 +197,7 @@ body {
 
 .main-green-button a {
   display: inline-block;
-  background-color: #33ccc5;
+  background-color: #000000;
   font-size: 15px;
   font-weight: 400;
   color: #fff;
@@ -242,7 +210,7 @@ body {
 }
 
 .main-green-button a:hover {
-  background-color: #4771cb!important;
+  background-color: #ff9a3b!important;
   color: #fff!important;
   border-bottom: 2px solid #33ccc5!important;
 }
@@ -502,7 +470,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   display: block;
   position: absolute;
   width: 30px;
@@ -574,7 +542,7 @@ header
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #fff;
+  background-color: rgb(255, 137, 59);
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
@@ -586,7 +554,7 @@ header
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #fff;
+  background-color: rgb(255, 137, 59);
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
